@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Portfolio - Đinh Thị Hiền</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Segoe UI';
+}
+
+body{
+background: linear-gradient(135deg,#f5c7b8,#f7e2dc);
+min-height:100vh;
+}
+
+/* HEADER */
+
+.header{
+text-align:center;
+padding:60px 20px;
+}
+
+.avatar{
+width:180px;
+height:180px;
+border-radius:50%;
+border:6px solid white;
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+object-fit:cover;
+transition:0.4s;
+}
+
+.avatar:hover{
+transform:scale(1.08);
+}
+
+.name{
+font-size:40px;
+margin-top:20px;
+color:#8b3d1f;
+font-weight:bold;
+}
+
+.job{
+color:#444;
+margin-top:5px;
+}
+
+/* CONTAINER */
+
+.container{
+width:90%;
+max-width:1100px;
+margin:auto;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+padding:40px 0;
+}
+
+/* CARD */
+
+.card{
+background:white;
+padding:25px;
+border-radius:20px;
+box-shadow:0 8px 25px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h2{
+margin-bottom:15px;
+color:#8b3d1f;
+}
+
+.card ul{
+list-style:none;
+}
+
+.card li{
+margin:10px 0;
+}
+
+/* SKILL BAR */
+
+.skill{
+margin-top:10px;
+}
+
+.bar{
+height:8px;
+background:#f1c2b1;
+border-radius:10px;
+margin-top:5px;
+overflow:hidden;
+}
+
+.fill{
+height:100%;
+background:#d67854;
+}
+
+/* CONTACT */
+
+.contact{
+text-align:center;
+padding:30px;
+}
+
+.contact i{
+margin-right:8px;
+color:#d67854;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+
+<img src="avatar.jpg" class="avatar">
+
+<div class="name">Đinh Thị Hiền</div>
+<div class="job">Sinh viên Kinh tế Đối ngoại – FTU</div>
+
+</div>
+
+<div class="container">
+
+<div class="card">
+
+<h2>👩‍💻 Giới thiệu</h2>
+
+<ul>
+<li>Ngày sinh: 14/05/2006</li>
+<li>Quê quán: Mỹ Hào, Hưng Yên</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>🎓 Học vấn</h2>
+
+<p>Sinh viên trường Đại học Ngoại Thương  
+Ngành Kinh tế Đối ngoại</p>
+
+</div>
+
+<div class="card">
+
+<h2>⭐ Kỹ năng</h2>
+
+<div class="skill">
+Giao tiếp
+<div class="bar"><div class="fill" style="width:90%"></div></div>
+</div>
+
+<div class="skill">
+Thuyết trình
+<div class="bar"><div class="fill" style="width:85%"></div></div>
+</div>
+
+<div class="skill">
+Quản lý thời gian
+<div class="bar"><div class="fill" style="width:80%"></div></div>
+</div>
+
+<div class="skill">
+Làm việc nhóm
+<div class="bar"><div class="fill" style="width:88%"></div></div>
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>💼 Kinh nghiệm</h2>
+
+<ul>
+<li>Marketing – HSA Education</li>
+<li>Sale – HSA Education</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>🌱 Tính cách</h2>
+
+<ul>
+<li>Trách nhiệm</li>
+<li>Cầu tiến</li>
+<li>Chăm chỉ</li>
+<li>Sáng tạo</li>
+</ul>
+
+</div>
+
+<div class="card contact">
+
+<h2>📞 Liên hệ</h2>
+
+<p><i class="fa fa-phone"></i>0969820714</p>
+<p><i class="fa fa-envelope"></i>dinhhien09061405@gmail.com</p>
+
+</div>
+
+</div>
+
+</body>
+</html>
